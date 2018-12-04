@@ -5,7 +5,7 @@ function [FC_gram, mpg] = fMPG(cycle)
     % select cycle file
     switch cycle
         case 1     
-            cyclename = 'CYC_HINO';
+            cyclename = 'CYC_HINO';       % CYC_HINO is the optimized drive cycle of our vehicle
         case 2
             cyclename = 'CYC_HWFET';
         case 3
